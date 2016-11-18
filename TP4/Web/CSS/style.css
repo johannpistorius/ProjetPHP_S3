@@ -1,0 +1,63 @@
+section{
+	text-align:center;
+}
+body{
+	background-color:#DDDDDD;
+}
+a:hover{
+	color:#3cb0fd;
+}
+a:visited{
+	color:purple;
+}
+
+.button{
+  border-radius: 8px;
+  color: #000000;
+  font: bold 14px Arial;
+  background: #AAAAAA;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  border:solid 1px black;
+  margin:10px;
+}
+
+.button :hover {
+  background: #3cb0fd;
+  text-decoration: none;
+}
+
+header{
+	text-align:center;
+	
+}
+.datagrid table{
+	border-collapse:collapse;
+}
+.datagrid table, th, td {
+   border: 1px solid black;
+   margin-right:auto;
+   margin-left:auto;
+   padding:5px;
+}
+.datagrid table, th{
+	background-color:#BBBBBB;
+}
+.datagrid table, tr{
+	background-color:#EEEEEE;
+}
+input[type=text]:hover{
+	border-style=double;
+	border-color:black;
+}
+input[type=password]:hover{
+	border-style=double;
+	border-color:black;
+}
+input[type=email]:hover{
+	border-style=double;
+	border-color:black;
+}
+.voter{
+	color:#ff9900;
+}
